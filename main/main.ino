@@ -322,19 +322,6 @@ void Joystick(){
   int xValue = analogRead(pinX);
   int yValue = analogRead(pinY);
   int zValue = digitalRead(pinZ);
-
-//   Serial.print("Valeur Y ");
-//   Serial.println(yValue);
-
-//   Serial.print("Valeur X ");
-//   Serial.println(  xValue);
-
-//   Serial.print("Valeur Z ");
-//   Serial.println(  zValue);
-// delay(3000);
-// goto c;
-
-  // Move down the incubation options
   b:
    xValue = analogRead(pinX);
    yValue = analogRead(pinY);
